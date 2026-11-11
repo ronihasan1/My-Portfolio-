@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio | Web Developer</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar container">
+            <a href="#" class="logo">My<span>Portfolio</span></a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="menu-btn" id="menuBtn"
+                aria-label="Toggle navigation"
+                aria-expanded="false">
+                ☰
+            </button>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+                    <h1>Hello, I'm <span>Md Roni</span></h1>
+
+                    <h2>I'm a Frontend Developer</h2>
+
+                    <p>
+                        I create beautiful, responsive and
+                        user-friendly websites using HTML,
+                        CSS and JavaScript.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn">View My Work</a>
+                        <a href="#contact" class="btn btn-outline">
+                            Contact Me
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <div class="profile-circle">
+                        <img src="image/my1.jpg" alt="">
+                        <!-- <span>YOUR PHOTO</span> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section" id="about">
+            <div class="container">
+                <h2 class="section-title">About <span>Me</span></h2>
+
+                <div class="about-content">
+                    <div>
+                        <h3>Who Am I?</h3>
+                        <p>
+                            Hello! I'm Md Roni, a beginner
+                            Frontend Developer. I enjoy learning
+                            web development and creating websites.
+                        </p>
+                        <p>
+                            My goal is to become a professional
+                            web developer and build useful
+                            websites for people.
+                        </p>
+                    </div>
+
+                    <div class="about-info">
+                        <p><strong>Name:</strong> MD Roni</p>
+                        <p><strong>Profession:</strong> Student</p>
+                        <p><strong>Location:</strong> Bangladesh</p>
+                        <p><strong>Email:</strong> thastsroni4242@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section section-dark" id="skills">
+            <div class="container">
+                <h2 class="section-title">My <span>Skills</span></h2>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>HTML</h3>
+                        <p>Website Structure</p>
+                        <div class="skill-bar">
+                            <div style="width: 85%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>CSS</h3>
+                        <p>Website Design</p>
+                        <div class="skill-bar">
+                            <div style="width: 75%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>JavaScript</h3>
+                        <p>Website Interaction</p>
+                        <div class="skill-bar">
+                            <div style="width: 60%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>React</h3>
+                        <p>Frontend Library</p>
+                        <div class="skill-bar">
+                            <div style="width: 40%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section" id="projects">
+            <div class="container">
+                <h2 class="section-title">My <span>Projects</span></h2>
+
+                <div class="projects-grid">
+
+                    <div class="project-card">
+                        <div class="project-icon">🌐</div>
+                        <h3>Personal Portfolio</h3>
+                        <p>
+                            A responsive personal portfolio
+                            website built with HTML, CSS and JS.
+                        </p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="#contact">View Project →</a>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-icon">🛒</div>
+                        <h3>E-commerce Website</h3>
+                        <p>
+                            A simple online shopping website
+                            with a clean user interface.
+                        </p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+                        <a href="#contact">View Project →</a>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-icon">📱</div>
+                        <h3>Landing Page</h3>
+                        <p>
+                            A modern and responsive landing
+                            page for a business website.
+                        </p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                        <a href="#contact">View Project →</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section section-dark" id="contact">
+            <div class="container">
+                <h2 class="section-title">Contact <span>Me</span></h2>
+
+                <p class="contact-description">
+                    Have a project or question? Send me a message.
+                </p>
+
+                <form class="contact-form" id="contactForm">
+
+                    <input type="text" id="name"
+                        placeholder="Your Name" required>
+
+                    <input type="email" id="email"
+                        placeholder="Your Email" required>
+
+                    <textarea id="message"
+                        placeholder="Your Message"
+                        rows="5" required></textarea>
+
+                    <button type="submit" class="btn">
+                        Send Message
+                    </button>
+
+                    <p id="formMessage" aria-live="polite"></p>
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            © 2026 Md Roni. All Rights Reserved.
+        </p>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+</html>
